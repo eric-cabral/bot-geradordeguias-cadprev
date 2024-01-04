@@ -64,5 +64,7 @@ class BotGerador:
             driver.find_element(By.XPATH, '//input[@name="form:j_id617"]').click()
             time.sleep(5)
 
-iniciar = BotGerador('CPF', 'SENHA')
+login = 'CPF'
+senha = 'SENHACADPREV'
+iniciar = BotGerador(login, senha)
 iniciar.login()
